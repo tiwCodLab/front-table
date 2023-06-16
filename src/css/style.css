@@ -1,0 +1,254 @@
+.first-page-container {
+  text-align: center;
+  padding: 7.8%;
+  background-color: #f1da96;
+}
+
+.logo-image {
+  width: 600px;
+  height: 400px;
+}
+
+.welcome-text {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.button-group .button-homepage,
+.button-group .button-signin {
+  font-family: "Righteous", serif;
+  background-color: #f89929;
+  border: none;
+  color: black;
+  padding: 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.button-group .button-homepage {
+  margin-right: 80px;
+}
+
+.button-group .button-signin {
+  padding: 20px 50px;
+  margin-right: 70px;
+}
+
+.button-homepage:hover,
+.button-signin:hover {
+  background-color: #45a049;
+}
+
+.font-main {
+  margin-top: 20px;
+}
+
+.already-member-text {
+  font-size: 16px;
+}
+
+.signup-link {
+  color: #4caf50;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+/* lonin */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #f1da96;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 25px;
+  border-radius: 25px;
+}
+
+.login-form h1 {
+  font-size: 50spx;
+  margin-bottom: 20px;
+}
+
+.login-form .errmsg {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.login-form .form-input {
+  margin-bottom: 15px;
+}
+
+.login-form label {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: #4caf50;
+  border-style: hidden;
+}
+
+.login-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Add any other styles as needed */
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #f89929;
+  border: none;
+  color: black;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 25px;
+  margin-top: 15px;
+}
+
+/* Add any other styles as needed */
+
+/* home */
+/* Home.css */
+
+.home-container {
+  background-color: #fff;
+  color: #000;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.auth-status .home-page {
+  margin-left: 70%;
+  background-color: #32333295;
+  margin: 50px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.auth-status .home-page {
+  color: #fff;
+  font-size: 25px;
+}
+
+.auth-status .home-page a {
+  background-color: #f89929;
+  border: none;
+  color: black;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 25px;
+  margin-top: 15px;
+}
+
+.auth-status {
+  font-size: 20px;
+  background-image: url("../images/meat.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #000;
+  font-family: Arial, sans-serif;
+  padding: 100px;
+}
+
+/* .container2 img {
+  width: 100%;
+  max-width: 150%;
+  height: auto;
+} */
+
+.container3 {
+  display: flex;
+  align-items: center;
+}
+
+.container4 {
+  margin-left: 80px;
+  margin-right: 40px;
+}
+
+.font3 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 25%;
+}
+
+.font3 .title-look {
+  /* margin-left: 35px;
+  margin-top: 450px; */
+}
+
+.font3 img {
+  width: 100%;
+}
+
+.font-main2 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container4 .font-main2 {
+  margin-top: 250px;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.footer {
+  /* margin-top: 50px;
+  text-align: center; */
+  display: flex;
+  margin-top: 450px;
+  background-color: #f1da96;
+  padding-left: 45px;
+}
+
+.footer .font-main3,
+.footer .font-main4 {
+  font-size: 20px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.footer .font-main3 {
+  margin-left: 20%;
+}
+
+.footer .about {
+  font-size: 35px;
+}

@@ -1,0 +1,122 @@
+/* CSS for the table container */
+.tab-container {
+  width: 98%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* CSS for the table */
+.reserve-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+/* CSS for table headings */
+.reserve-table th {
+  background-color: #f6c05dd2;
+  border: 1px solid #bda209;
+  padding: 8px;
+  text-align: left;
+}
+
+/* CSS for table cells */
+.reserve-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 18px;
+}
+
+/* CSS for the "Not have Booking List" message */
+.nothavebooking {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  color: #999;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-table th {
+  font-weight: bold;
+}
+
+.info {
+  color: green;
+}
+
+.danger {
+  color: red;
+}
+
+.manage-button {
+  padding: 6px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.no-booking {
+  text-align: center;
+  padding: 16px;
+  font-weight: bold;
+  color: gray;
+}
+
+/* admin */
+
+.infos {
+  color: green;
+}
+
+.dangers {
+  color: red;
+  font-weight: 600;
+}
+.manage-container {
+  display: flex;
+}
+
+.admin-table {
+  margin-top: 20px;
+}
+
+.admin-container tr {
+  font-size: 20px;
+}
+
+.manage-button {
+  padding: 6px 6px;
+  background-color: #4ab00f;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.manage-button:hover {
+  background-color: #51c210;
+}
+
+.no-booking {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: gray;
+}

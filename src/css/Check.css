@@ -1,0 +1,61 @@
+.checkpic {
+  width: 100px;
+  height: auto;
+  margin-top: 5px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.check-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.huge-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 650px; /* Adjust the height as needed */
+  width: 600px; /* Adjust the width as needed */
+  background-color: rgb(
+    232,
+    232,
+    232
+  ); /* Adjust the background color as needed */
+  border-radius: 8%;
+  margin-top: 5px;
+}
+
+.queue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.queue h2 {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.info {
+  font-size: 30px;
+  font-family: Lusitana;
+  text-align: center;
+}
+
+.to-home {
+  margin-top: 1px; /* Adjust the margin-top as needed */
+}
+
+.huge-box .info {
+  color: black;
+}

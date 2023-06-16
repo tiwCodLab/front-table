@@ -1,0 +1,106 @@
+.sidebar {
+  width: 400px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo-img {
+  width: 250px;
+  height: auto;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.Nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 33px;
+}
+
+span {
+  margin-left: 10px;
+  font-size: 36px;
+  color: rgb(85, 85, 85);
+  font-family: Lusitana;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+.book {
+  width: 45px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.Nav {
+  margin-top: 100px;
+}
+
+.table-pic {
+  width: 43px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.table-pic a {
+  text-decoration: none;
+}
+
+.log-out {
+  width: 43px;
+  height: auto;
+  margin-right: 30px;
+}
+
+.singout a {
+  font-size: 29px;
+  text-decoration: none;
+}
